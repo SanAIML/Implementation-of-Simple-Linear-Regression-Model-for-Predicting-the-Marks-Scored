@@ -57,7 +57,7 @@ plt.show()
 
 #Graph plot for test data
 plt.scatter(x_test,y_test,color='black')
-plt.plot(x_train,regressor.predict(x_train),color='red')
+plt.plot(x_test,regressor.predict(x_test),color='red')
 plt.title("Hours vs Scores(Testing set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
@@ -151,7 +151,8 @@ RMSE= 5.046115410711743
 ## Training Sets:
 ![download](https://github.com/user-attachments/assets/44710567-57ad-4421-a847-53e6d910c4a5)
 ## Testing Sets:
-![download](https://github.com/user-attachments/assets/15c8d6be-195f-49e4-8391-7a8597bb75a7)
+![download](https://github.com/user-attachments/assets/30283b6f-7913-4e36-9054-7c6026a6652e)
+
 
 
 
